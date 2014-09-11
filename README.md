@@ -1,7 +1,13 @@
 # Jekyll Bigfootnotes Plugin
-This plugin enables big footnotes for [kramdown](http://kramdown.gettalong.org/).
+While [kramdown](http://kramdown.gettalong.org/) uses only <sup>superscript</sup> numbers to link to the footnotes this plugin enables big footnote links.
 
-While kramdown uses only <sup>superscript</sup> numbers to link to the 
+Instead of
+
+> Lorem ipsum dolor sit amet<sup><a href="">1</a></sup>
+
+you get
+
+> Lorem ipsum dolor sit amet<a href="">[1]</a>
 
 **Note**: Consider that this is only a shitty workaround for the [kramdown Big Footnotes](http://blog.fox21.at/2014/09/09/kramdown-big-footnotes.html) feature. See also [Issue #167](https://github.com/gettalong/kramdown/pull/167) at the kramdown project.
 
